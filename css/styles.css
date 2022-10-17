@@ -1,0 +1,1255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    border: none;
+    background-color: #d7d7d7;
+    box-shadow: none;
+    height: 1px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.ml-10 {
+    margin-left: 25px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #6A6A6A;
+
+}
+
+
+p {
+    line-height: 1.6;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #6A6A6A;
+    padding-top: 15px;
+}
+
+
+body {
+    height: auto;
+
+}
+
+.active a {
+    color: red !important;
+    border-bottom: 1px solid red;
+    padding-bottom: 8px;
+}
+
+
+
+
+
+.contenedor {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.color-subtitulo {
+    color: white;
+}
+
+article p {
+    font-style: italic;
+    color: #6b6b6b;
+    font-weight: 100;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.header-menu {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    top: 0;
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+.header-menu ul {
+    display: flex;
+    color: #fff;
+}
+
+.nav-item a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0 22px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+
+.portada {
+    height: 80vh;
+    background-image: url(../recursos/my-outland-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+    padding-top: 12vh;
+}
+
+
+.text-portada {
+    font-style: italic;
+    color: #fff;
+    font-weight: 200;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    margin-top: 25vh;
+    line-height: 50px;
+
+}
+
+
+.boton {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.boton-lg {
+    padding: 2px 12px;
+    max-width: 200px;
+    width: 100%;
+}
+
+.boton-rojo {
+    background-color: red;
+    color: #fff;
+}
+
+.text-size {
+    font-style: italic;
+    color: #6b6b6b;
+    font-weight: 100;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+
+}
+
+
+.boton-rojo:hover {
+    background-color: #750575;
+    color: rgb(255, 255, 255);
+}
+
+
+nav li:hover {
+    background-color: #750575;
+    color: rgb(255, 255, 255);
+}
+
+
+.titulo-ali-1 {
+    text-align: left;
+    margin-top: 10px;
+
+
+}
+
+
+.margin-text-home {
+    margin-top: 50px;
+}
+
+
+.titulo-ali-2 {
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.titulo-size {
+    font-size: 3.5rem;
+
+}
+
+
+.background-cards {
+
+
+    background-image: url(../recursos/my-outland-6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+.image-center {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 23px;
+
+
+}
+
+
+.flex-packs {
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.flex-packs-heroic {
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.text-tipo {
+    line-height: 1.6;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+
+}
+
+
+.text-tipo li {
+    display: flex;
+    align-items: center;
+
+}
+
+.text-tipo li img {
+    max-width: 30px;
+    margin-right: 5px;
+}
+
+/* inicio de packs predisenados */
+
+.background-predisenado {
+    height: 20vh;
+    background-image: url(../recursos/my-outland-19.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.text-predisenado {
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.productos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productos__title {
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.tarjeta {
+    border: 2px solid black;
+    max-width: 300px;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+
+    padding: 15px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarjeta__title {
+    color: white;
+}
+
+
+.tarjeta__precio {
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 1.2rem;
+
+
+}
+
+
+.btno {
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.btno:hover {
+    border: 2px solid #750575;
+    background-color: #750575;
+    color: rgb(255, 255, 255);
+}
+
+.slider {
+    padding: 15px;
+    display: flex;
+    gap: 2vw;
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Fin de packs predisenados */
+
+
+/* inicio testimonio */
+
+.background-testimonios {
+    background-image: url(../recursos/my-outland-18.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 400px;
+}
+
+
+.text-testimonio {
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.titulo-testimonio {
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+/* Fin testimonio */
+
+
+
+
+/* inicio Seccion Khaten */
+
+
+
+.background-khaten {
+    background-image: url(../recursos/my-outland-17.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 0;
+    background-attachment: fixed;
+}
+
+
+
+.contenedor-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.text-khaten {
+    max-width: 590px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.boton-khaten {
+    padding: 18px 12px;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+
+.boton-khaten .boton-rojo .boton-lg .khaten-align {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+
+}
+
+
+/* fin Seccion Khaten */
+
+
+
+.newsletter {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.new {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+
+
+.mail-news {
+    height: 20vh;
+    background-color: #101010;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
+/* inicio Footer */
+
+.footer-background {
+    background-image: url(../recursos/my-outland-15.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+
+.input-newsletter {
+    background-color: red;
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+
+.input-newsletter input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    flex: 1;
+    font-size: 1.5rem;
+    -webkit-appearance: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+.input-newsletter button {
+    background-color: #fff;
+    color: red;
+    border-radius: 100px;
+    justify-content: right;
+}
+
+.titulo-footer {
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0 50px;
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+
+.text-footer-2 {
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0 50px;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+
+.flex-alinea {
+    display: flex;
+    align-items: 0 auto;
+
+}
+
+
+.titulo-ali-3 {
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    color: #6A6A6A;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: left;
+
+}
+
+.footer-menu-container {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 250px;
+    align-items: flex-start;
+}
+
+
+.footer-menu {
+    display: flex;
+    margin: 0 15px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-title {
+    color: red;
+    border-bottom: 1px solid white;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.footer-menu a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+
+.text-menu-footer {
+    color: white;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav a {
+    font-weight: 400;
+}
+
+.footer-nav li {
+    margin-bottom: 8px;
+}
+
+.redes {
+    display: flex;
+
+}
+
+/* fin Footer */
+
+
+
+
+/*Nosotros----------------------------------------------------------------------------------------------------- */
+
+
+.portada-nosotros-2 {
+    height: 50vh;
+    background-image: url(../recursos/nosotros-6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.titulo-nosotros {
+    text-align: center;
+    font-size: 3.1rem;
+}
+
+
+.texto-nosotros-1 {
+
+    text-align: left;
+    margin-top: 50px;
+
+}
+
+.panding-text {
+    margin-top: 15px;
+}
+
+.size-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.text-aventura {
+    margin-top: 55px;
+}
+
+
+.background-video {
+    background-image: url(../recursos/nosotros-8.png);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/*packs----------------------------------------------------------------------------------------------------- */
+
+
+
+
+.portada-packs {
+    height: 50vh;
+    background-image: url(../recursos/packs-10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.text-portada-packs {
+
+    font-style: italic;
+    color: #fff;
+    font-weight: 200;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.titulo-packs-2 {
+    font-style: italic;
+    color: rgb(97, 96, 96);
+    font-weight: 200;
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    ;
+    padding-top: 15px;
+
+}
+
+.background-predisenado-packs {
+    height: 20vh;
+    background-image: url(../recursos/pack-22.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.video-size {
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+/*galeria----------------------------------------------------------------------------------------------------- */
+.portada-galeria {
+    height: 50vh;
+    background-image: url(../recursos/galeria-7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.galeria {
+    display: flex;
+
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.videos-galeria {
+
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    flex: 1
+}
+
+.galery-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.galery-container img {
+    flex: 1
+}
+
+
+.contenedor-video {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+.galery-video {
+    flex: 1;
+}
+
+.galery-video video {
+    width: 39.3vw;
+
+}
+
+/*Contacto----------------------------------------------------------------------------------------------------- */
+
+
+.box-text-formulario {
+    flex: 2;
+}
+
+.portada-contacto-1 {
+    height: 50vh;
+    background-image: url(../recursos/contacto-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.flex-alinea-formulario {
+    display: flex;
+    gap: 100px;
+    align-items: 0 auto;
+    flex-direction: row;
+
+
+}
+
+.form-contenedor {
+    flex: 1;
+}
+
+.formulario-contacto {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    outline: none;
+}
+
+
+
+.formulario-contacto input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    flex: 1;
+    font-size: 1.5rem;
+    -webkit-appearance: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+.box-text-formulario {
+    margin-right: 20px;
+    margin-bottom: 150px;
+}
+
+.espacio-contacto {
+    margin-top: 15px;
+}
+
+
+.navbar {
+    --bs-navbar-padding-x: 1 !important;
+}
+
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: -10.5rem;
+
+}
+
+
+
+
+
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: rgba(244, 244, 244, 0.9);
+}
+
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1080px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: end;
+    }
+}
+
+
+
+
+
+.circulo {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/*responsive----------------------------------------------------------------------------------------------------- */
+
+.container-fluid {
+    background-color: black;
+}
+
+.navbar-toggler {
+    background-color: red;
+
+}
+
+@media (max-width: 1080px) {
+    .flex-alinea {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .titulo-ali-1 {
+        text-align: center;
+        padding: 20px 20px;
+    }
+
+
+
+    .portada {
+        height: 69vh;
+    }
+
+
+    .image-mobile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 20px;
+
+
+    }
+
+
+    .logo-imag {
+        width: 64vw;
+        margin-left: 34px;
+
+    }
+
+    .titulo-size {
+
+        margin-top: -13vh;
+
+    }
+
+
+    .boton-lg {
+        padding: 5px 12px;
+        max-width: 155px;
+        width: 100%;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 1080px) {
+
+    .flex-packs {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+
+    .titulo-ali-3 {
+        text-align: center;
+        padding: 20px 20px;
+    }
+
+    .texto-packs-center {
+        text-align: center;
+    }
+
+    .text-tipo {
+        text-align: center;
+        padding: 20px 20px;
+
+    }
+
+    .boton-center {
+        padding-left: 70px;
+    }
+
+    .lista {
+        text-justify: center;
+        justify-content: center;
+
+    }
+
+    .flex-packs-heroic {
+
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .input-newsletter {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: red;
+        max-width: 477px;
+        width: 81%;
+        border-radius: 23px;
+        padding: 9px 13px;
+        margin-top: 15px;
+    }
+
+
+    .tamano-imagen-home {
+        width: 100%;
+    }
+
+    .image-center {
+        width: 100%;
+    }
+
+    .footer-menu-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-justify: center;
+    }
+
+
+    .redes-container {
+        margin-top: 50px;
+    }
+
+    .footer-menu {
+        margin-top: 50px;
+    }
+
+    .text-footer-2 {
+        margin-top: 30px;
+
+    }
+
+    .text-portada {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .triforce {
+        height: 27vh;
+        padding: 0px 16px;
+        margin-bottom: 26px;
+    }
+
+    .text-aventura {
+        text-align: center;
+        padding: 0px 15px;
+    }
+
+    .panding-text {
+        text-justify: center;
+        text-align: center;
+        padding: 0px 15px;
+    }
+
+
+    .video-size {
+        width: 100%;
+        display: flex;
+        align-content: center;
+    }
+
+    .reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+
+    .flex-alinea-formulario {
+        flex-direction: column;
+    }
+
+
+    .form-contenedor {
+        padding: 0 109px;
+    }
+
+    .espacio-contacto {
+        text-align: center;
+
+    }
+
+
+    .box-text-formulario {
+        margin-bottom: -50px;
+    }
+
+    .dejanos-tu-consu {
+
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: #750575;
+        margin-bottom: 15px;
+
+    }
+
+    .text-aventura {
+        margin-top: -13px;
+    }
+
+    .contenedor-video {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .galery-video video {
+        width: 98.3vw;
+    }
+
+
+    .text-khaten {
+        padding: 15px;
+    }
+
+    .logofooter {
+        width: 96%;
+
+    }
+
+
+}
